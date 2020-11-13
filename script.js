@@ -24,7 +24,6 @@ fetch("./users.json")
     });
       users[2].showMeTheMoney();
   });
-
 function showMeTheMoneyFunc () {
   alert(this.money);
 };
